@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&family=Poppins:wght@300&family=Roboto+Mono:wght@700&display=swap');
+body {
+    background-image: url('https://images-na.ssl-images-amazon.com/images/S/videodirect-images/hero/5c5571d9-d350-8921-37a7-211b8b435e12._SX1080_.jpg');
+    color: white;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+   font-family: 'Poppins', sans-serif;
+   font-size: 25px;
+}
+.title {
+    margin-top: 8%;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.home, h3 {
+    margin-top: 2%;
+}
+form {
+    width: 50%;
+    margin: 5% auto;
+}
+button {
+    float: right;
+    background-color: dimgrey;
+    color: white;
+    border-radius: 5px;
+    padding: 1%;
+    font-size: 18px;
+}
+button:hover {
+    background-color: lightblue;
+    color: black;
+}
+.table {
+    background-color: lightcyan;
+    color: black;
+}
+.list {
+    overflow: scroll;
+    height: 800px;
+    padding: 2%;
+    border: 5px solid darkgrey;
+    border-radius: 20px;
+}
+tr:hover {
+   background-color: white;
+}
+thead {
+    background-color: lightblue;
+    color: black
+}
+a:hover {
+    color: darkgreen;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px white;
+}
+a {
+    color: black;
+}
+tr {
+    font-size: 18px;
+}
+nav > p, .home {
+    display: inline;
+    color: black;
+    font-weight: bolder;
+}
+.home {
+    margin-left: 40%;
+}
+nav {
+    background-color: white;
+    opacity: 0.5;
+    padding: 1%;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
